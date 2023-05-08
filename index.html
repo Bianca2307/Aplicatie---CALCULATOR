@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="display" id="calculator-display"> 0 </div>
+    <div class="buttonsContainer">
+      <div class="row">
+        <button onclick="handleNumber('1')">1</button>
+        <button onclick="handleNumber('2')">2</button>
+        <button onclick="handleNumber('3')">3</button>
+        <button onclick="handleOperator('/')">/</button>
+      </div>
+      <div class="row">
+        <button onclick="handleNumber('4')">4</button>
+        <button onclick="handleNumber('5')">5</button>
+        <button onclick="handleNumber('6')">6</button>
+        <button onclick="handleOperator('-')"> - </button>
+      </div>
+      <div class="row">
+        <button onclick="handleNumber('7')">7</button>
+        <button onclick="handleNumber('8')">8</button>
+        <button onclick="handleNumber('9')">9</button>
+        <button onclick="handleOperator('+')"> + </button>
+      </div>
+      <div class="row">
+        <button onclick="handle('C')">C</button>
+        <button onclick="handleNumber('0')">0</button>
+        <button onclick="handleResult('=')"> = </button>
+        <button onclick="handleOperator('*')">*</button>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <script src="index.js"></script>
+</body>
+
+</html>
